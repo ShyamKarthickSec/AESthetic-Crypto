@@ -51,11 +51,11 @@ def decrypt(key, filename):
 
 			outfile.truncate(filesize)
 
-'''def getKey(password):
+def getKey(password):
 	hasher = SHA256.new(password.encode('utf-8'))
-	return hasher.digest()'''
+	return hasher.digest()
 
-'''def Main():
+def Main():
 	choice = input("Would you like to (E)encrypt or (D)Decrypt ")
 
 	if choice == 'E':
@@ -73,4 +73,4 @@ def decrypt(key, filename):
 		print("No option selected, closing...")
 
 
-Main()'''
+Main()
